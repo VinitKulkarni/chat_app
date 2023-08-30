@@ -104,10 +104,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'chatdb',
-        'USER': '*',
-        'PASSWORD': '*',
-        'HOST': '*',
-        'PORT': '*',
+        'USER': 'admin',
+        'PASSWORD': 'admin123',
+        'HOST': 'database-1.ccloafkmlils.ap-south-1.rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
 #sagar kadam
